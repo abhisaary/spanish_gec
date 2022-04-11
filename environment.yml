@@ -1,0 +1,11 @@
+name: spanish_gec
+dependencies:
+  - python=3.8
+  - transformers
+  - sentencepiece
+  - wandb
+  - pandas
+  - pip
+  - pip:
+    - pytorch_lightning
+    - errant
