@@ -39,6 +39,11 @@ You can run inference on all datasets:
 ```
 >>> python run_predict.py </path/to/ckpt/dir> </path/to/ckpt/file> -d <train, val, test, or all> -b <num_beams>
 ```
+You can run inference on a sentence with a [pretrained model](https://drive.google.com/drive/folders/14uyRXlyGusw16Tl2DaylC2OPdXpGoq4e?usp=sharing):
+```
+>>> python predict.py <path/to/model/dir> <text>
+```
+You can also play with inference using this [Colab notebook.](https://colab.research.google.com/drive/1ZtcA9eIHgrYng6rpSgrts6Kqd-UUXcdI?usp=sharing)
 
 ### Evaluation
 You can compute the F-0.5 score using ERRANT:
