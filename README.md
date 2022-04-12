@@ -47,5 +47,3 @@ You can compute the F-0.5 score using ERRANT:
 ```
 This will output a `results-cs.txt` in your predictions directory with the several metrics:
 >TPs, FPs, FNs, Precision, Recall, F-0.5
-
-You can also use the following Colab notebook to try individual inferences with a sample finetuned model.
